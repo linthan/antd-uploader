@@ -1,0 +1,26 @@
+{
+  "name": "antd-uploader",
+  "version": "0.0.1",
+  "description": "a wrapper for antd upload",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "authors": {
+    "name": "ethan",
+    "email": "fsk741@gmail.com"
+  },
+  "repository": "/antd-uploader",
+  "scripts": {
+    "dev": "father doc dev",
+    "build": "father build"
+  },
+  "peerDependencies": {
+    "antd": "3.x",
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "father": "^2.16.0",
+    "typescript": "^3.3.3",
+    "umi-request": "^1.2.5"
+  },
+  "license": "MIT"
+}
